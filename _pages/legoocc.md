@@ -1,18 +1,15 @@
 ---
 layout: single
-title: "LegoOcc"
+title: "LegoOcc: Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes"
 permalink: /legoocc/
 author_profile: false
 ---
-
-# LegoOcc: Monocular Open Vocabulary Occupancy Prediction for Indoor Scenes
 
 <p style="text-align: center; color: #d32f2f; font-weight: 700;">
   <strong>CVPR 2026 Oral</strong>
 </p>
 
 <p style="text-align: center;">
-  <strong>Authors:</strong>
   <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ">Changqing Zhou</a>,
   <a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Yueru Luo</a>,
   <a href="https://github.com/hanzhang-tech">Han Zhang</a>,
@@ -31,7 +28,7 @@ LegoOcc studies open-vocabulary 3D occupancy prediction for indoor scenes from m
 Instead of relying on dense semantic supervision, LegoOcc follows a geometry-only supervision setting with binary occupancy labels. The method builds on 3D language-embedded Gaussians so that geometry and open-vocabulary semantics can be represented in a unified 3D structure.
 
 
-![GPOcc teaser](/images/legoocc/framework.png)
+![LegoOcc framework](/images/legoocc/framework.png)
 
 ## Method
 
@@ -44,4 +41,9 @@ To address these issues, LegoOcc introduces an opacity-aware Poisson-based aggre
 
 ## Performance
 
-![GPOcc teaser](/images/legoocc/results.png)
+![LegoOcc results](/images/legoocc/results.png)
+
+## Additional Visualizations
+
+![LegoOcc Vis1](/images/legoocc/quan_sl.png)
+![LegoOcc Vis2](/images/legoocc/quan_ov.png)

@@ -1,18 +1,15 @@
 ---
 layout: single
-title: "GPOcc"
+title: "GPOcc: Generalizing Visual Geometry Priors to Sparse Gaussian Occupancy Prediction"
 permalink: /gpocc/
 author_profile: false
 ---
-
-# GPOcc: Generalizing Visual Geometry Priors to Sparse Gaussian Occupancy Prediction
 
 <p style="text-align: center; color: #d32f2f; font-weight: 700;">
   <strong>CVPR 2026</strong>
 </p>
 
 <p style="text-align: center;">
-  <strong>Authors:</strong>
   <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ">Changqing Zhou</a>,
   <a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Yueru Luo</a>,
   <a href="https://scholar.google.com/citations?user=OqlY-98AAAAJ">Changhao Chen</a>
@@ -39,3 +36,8 @@ To support streaming monocular input, GPOcc further introduces a training-free i
 ## Performance
 
 ![GPOcc teaser](/images/gpocc/results.png)
+
+## Additional Visualizations
+
+![GPOcc Vis1](/images/gpocc/qua_mono.png)
+![GPOcc Vis2](/images/gpocc/qua_emb.png)
