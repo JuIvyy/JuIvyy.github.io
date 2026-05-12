@@ -3,6 +3,7 @@ title: "Generalizing visual geometry priors to sparse Gaussian occupancy predict
 collection: publications
 category: manuscripts
 permalink: /publication/2026-02-15-generalizing-visual-geometry-priors
+link: /#gpocc
 excerpt: "arXiv preprint."
 date: 2026-02-15
 venue: "arXiv preprint arXiv:2602.21552"

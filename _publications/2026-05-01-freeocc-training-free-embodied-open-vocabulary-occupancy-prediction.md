@@ -3,6 +3,7 @@ title: "FreeOcc: Training-Free Embodied Open-Vocabulary Occupancy Prediction"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-05-01-freeocc-training-free-embodied-open-vocabulary-occupancy-prediction
+link: /#freeocc
 excerpt: "Project page."
 date: 2026-05-01
 venue: "Project page"

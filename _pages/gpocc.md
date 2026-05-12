@@ -25,7 +25,7 @@ GPOcc explores how strong visual geometry priors can be turned into more effecti
 
 The method is motivated by the fact that recent geometry foundation models provide strong 3D cues, but these cues mainly describe surfaces. Occupancy prediction, however, requires reasoning about the interior volume of a scene, not just what is directly visible.
 
-![GPOcc teaser](/images/gpocc/framework.png)
+![GPOcc teaser](/assets/gpocc/framework.png)
 
 ## Method
 
@@ -35,9 +35,26 @@ To support streaming monocular input, GPOcc further introduces a training-free i
 
 ## Performance
 
-![GPOcc teaser](/images/gpocc/results.png)
+![GPOcc teaser](/assets/gpocc/results.png)
 
 ## Additional Visualizations
 
-![GPOcc Vis1](/images/gpocc/qua_mono.png)
-![GPOcc Vis2](/images/gpocc/qua_emb.png)
+![GPOcc Vis1](/assets/gpocc/qua_mono.png)
+![GPOcc Vis2](/assets/gpocc/qua_emb.png)
+
+## Videos
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 1rem;">
+  <video controls playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+    <source src="/assets/gpocc/demo1.mp4" type="video/mp4">
+  </video>
+  <video controls playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+    <source src="/assets/gpocc/demo2.mp4" type="video/mp4">
+  </video>
+  <video controls playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+    <source src="/assets/gpocc/demo3.mp4" type="video/mp4">
+  </video>
+  <video controls playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
+    <source src="/assets/gpocc/demo4.mp4" type="video/mp4">
+  </video>
+</div>

@@ -3,6 +3,7 @@ title: "Unsupervised domain adaptive 3D detection with multi-level consistency"
 collection: publications
 category: conferences
 permalink: /publication/2021-10-11-unsupervised-domain-adaptive-3d-detection
+link: /#uda-3d-detection
 excerpt: "ICCV 2021."
 date: 2021-10-11
 venue: "Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)"

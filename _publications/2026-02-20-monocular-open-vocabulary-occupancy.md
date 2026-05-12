@@ -3,6 +3,7 @@ title: "Monocular open vocabulary occupancy prediction for indoor scenes"
 collection: publications
 category: manuscripts
 permalink: /publication/2026-02-20-monocular-open-vocabulary-occupancy
+link: /#legoocc
 excerpt: "arXiv preprint."
 date: 2026-02-20
 venue: "arXiv preprint arXiv:2602.22667"

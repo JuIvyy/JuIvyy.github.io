@@ -28,7 +28,7 @@ LegoOcc studies open-vocabulary 3D occupancy prediction for indoor scenes from m
 Instead of relying on dense semantic supervision, LegoOcc follows a geometry-only supervision setting with binary occupancy labels. The method builds on 3D language-embedded Gaussians so that geometry and open-vocabulary semantics can be represented in a unified 3D structure.
 
 
-![LegoOcc framework](/images/legoocc/framework.png)
+![LegoOcc framework](/assets/legoocc/framework.png)
 
 ## Method
 
@@ -41,9 +41,9 @@ To address these issues, LegoOcc introduces an opacity-aware Poisson-based aggre
 
 ## Performance
 
-![LegoOcc results](/images/legoocc/results.png)
+![LegoOcc results](/assets/legoocc/results.png)
 
 ## Additional Visualizations
 
-![LegoOcc Vis1](/images/legoocc/quan_sl.png)
-![LegoOcc Vis2](/images/legoocc/quan_ov.png)
+![LegoOcc Vis1](/assets/legoocc/quan_sl.png)
+![LegoOcc Vis2](/assets/legoocc/quan_ov.png)

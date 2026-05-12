@@ -3,6 +3,7 @@ title: "Exploring point-BEV fusion for 3D point cloud object tracking with trans
 collection: publications
 category: manuscripts
 permalink: /publication/2024-09-01-exploring-point-bev-fusion
+link: /#point-bev-fusion
 excerpt: "IEEE TPAMI 2024."
 date: 2024-09-01
 venue: "IEEE Transactions on Pattern Analysis and Machine Intelligence"

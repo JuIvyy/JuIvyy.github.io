@@ -3,6 +3,7 @@ title: "PTTR: Relational 3D point cloud object tracking with transformer"
 collection: publications
 category: conferences
 permalink: /publication/2022-06-21-pttr-relational-3d-point-cloud-object-tracking
+link: /#pttr
 excerpt: "CVPR 2022."
 date: 2022-06-21
 venue: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"

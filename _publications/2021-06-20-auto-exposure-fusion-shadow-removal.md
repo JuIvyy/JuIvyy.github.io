@@ -3,6 +3,7 @@ title: "Auto-exposure fusion for single-image shadow removal"
 collection: publications
 category: conferences
 permalink: /publication/2021-06-20-auto-exposure-fusion-shadow-removal
+link: /#auto-exposure-fusion
 excerpt: "CVPR 2021."
 date: 2021-06-20
 venue: "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)"
