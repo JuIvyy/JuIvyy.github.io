@@ -120,7 +120,7 @@ author_profile: true
         <a href="https://arxiv.org/abs/2602.22667">paper</a>
       </div>
       <p class="publication-meta">CVPR 2026 <span style="color: #d32f2f; font-weight: 700;">Oral</span></p>
-      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Y. Luo</a>, <a href="https://github.com/hanzhang-tech">H. Zhang</a>, <a href="https://scholar.google.com/citations?user=i3Lr8_8AAAAJ">Z. Jiang</a>, <a href="https://scholar.google.com/citations?user=OqlY-98AAAAJ">C. Chen</a></p>
+      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a>, <a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Y. Luo</a>, <a href="https://github.com/hanzhang-tech">H. Zhang</a>, <a href="https://scholar.google.com/citations?user=i3Lr8_8AAAAJ">Z. Jiang</a>, <a href="https://scholar.google.com/citations?user=OqlY-98AAAAJ">C. Chen</a></p>
     </div>
     <div class="publication-image">
       <img src="/assets/legoocc/framework.png" alt="Monocular open vocabulary occupancy prediction for indoor scenes">
@@ -137,7 +137,7 @@ author_profile: true
         <a href="https://arxiv.org/abs/2602.21552">paper</a>
       </div>
       <p class="publication-meta">CVPR 2026</p>
-      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Y. Luo</a>, <a href="https://scholar.google.com/citations?user=OqlY-98AAAAJ">C. Chen</a></p>
+      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a>, <a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Y. Luo</a>, <a href="https://scholar.google.com/citations?user=OqlY-98AAAAJ">C. Chen</a></p>
     </div>
     <div class="publication-image">
       <img src="/assets/gpocc/framework.png" alt="Generalizing visual geometry priors to sparse Gaussian occupancy prediction">
@@ -156,7 +156,7 @@ author_profile: true
         <a href="https://arxiv.org/abs/2506.13553">paper</a>
       </div>
       <p class="publication-meta">arXiv 2025</p>
-      <p class="publication-authors"><a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Y. Luo</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="REPLACE_WITH_AUTHOR_URL">Y. Yang</a>, <a href="REPLACE_WITH_AUTHOR_URL">E. Li</a>, <a href="https://scholar.google.com/citations?user=6A1yEFMAAAAJ">C. Zheng</a>, <a href="REPLACE_WITH_AUTHOR_URL">S. Mei</a>, <a href="https://scholar.google.com/citations?user=1o_qvR0AAAAJ">S. Cui</a>, <a href="https://scholar.google.com/citations?user=0TTt3QsAAAAJ">Z. Li</a></p>
+      <p class="publication-authors"><a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Y. Luo</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a>, <a href="REPLACE_WITH_AUTHOR_URL">Y. Yang</a>, <a href="REPLACE_WITH_AUTHOR_URL">E. Li</a>, <a href="https://scholar.google.com/citations?user=6A1yEFMAAAAJ">C. Zheng</a>, <a href="REPLACE_WITH_AUTHOR_URL">S. Mei</a>, <a href="https://scholar.google.com/citations?user=1o_qvR0AAAAJ">S. Cui</a>, <a href="https://scholar.google.com/citations?user=0TTt3QsAAAAJ">Z. Li</a></p>
     </div>
   </article>
 
@@ -170,7 +170,7 @@ author_profile: true
         <a href="https://github.com/Jasonkks/PTTR">code</a>
       </div>
       <p class="publication-meta">IEEE TPAMI 2024</p>
-      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://liangpan99.github.io/">L. Pan</a>, <a href="https://zhanggongjie.github.io/">G. Zhang</a>, <a href="REPLACE_WITH_AUTHOR_URL">T. Liu</a>, <a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Y. Luo</a>, <a href="https://scholar.google.com/citations?user=sMQV1ecAAAAJ">H. Zhao</a>, <a href="https://liuziwei7.github.io/">Z. Liu</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a></p>
+      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a><sup>*</sup>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://liangpan99.github.io/">L. Pan</a>, <a href="https://zhanggongjie.github.io/">G. Zhang</a>, <a href="REPLACE_WITH_AUTHOR_URL">T. Liu</a>, <a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Y. Luo</a>, <a href="https://scholar.google.com/citations?user=sMQV1ecAAAAJ">H. Zhao</a>, <a href="https://liuziwei7.github.io/">Z. Liu</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a></p>
     </div>
   </article>
 
@@ -181,7 +181,7 @@ author_profile: true
       <div class="publication-links">
       </div>
       <p class="publication-meta">AAAI 2024</p>
-      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a>, <a href="https://zhanggongjie.github.io/">G. Zhang</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://scholar.google.com/citations?user=wMDgLCYAAAAJ">Z. Wu</a>, <a href="https://scholar.google.com/citations?user=fMXnSGMAAAAJ">Q. Tao</a>, <a href="https://scholar.google.com/citations?user=zdgKJXIAAAAJ">L. Lu</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a></p>
+      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a>, <a href="https://zhanggongjie.github.io/">G. Zhang</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a>, <a href="https://scholar.google.com/citations?user=wMDgLCYAAAAJ">Z. Wu</a>, <a href="https://scholar.google.com/citations?user=fMXnSGMAAAAJ">Q. Tao</a>, <a href="https://scholar.google.com/citations?user=zdgKJXIAAAAJ">L. Lu</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a></p>
     </div>
   </article>
 
@@ -194,7 +194,7 @@ author_profile: true
       <div class="publication-links">
       </div>
       <p class="publication-meta">WACV 2023</p>
-      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a>, <a href="https://zhanggongjie.github.io/">G. Zhang</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="REPLACE_WITH_AUTHOR_URL">T. Liu</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a>, <a href="https://liangpan99.github.io/">L. Pan</a></p>
+      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a>, <a href="https://zhanggongjie.github.io/">G. Zhang</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a>, <a href="REPLACE_WITH_AUTHOR_URL">T. Liu</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a>, <a href="https://liangpan99.github.io/">L. Pan</a></p>
     </div>
   </article>
 
@@ -208,7 +208,7 @@ author_profile: true
         <a href="https://arxiv.org/abs/2212.07849">paper</a>
       </div>
       <p class="publication-meta">arXiv 2022</p>
-      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://zhanggongjie.github.io/">G. Zhang</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a></p>
+      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a>, <a href="https://zhanggongjie.github.io/">G. Zhang</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a></p>
     </div>
   </article>
 
@@ -220,7 +220,7 @@ author_profile: true
         <a href="https://github.com/Jasonkks/PTTR">code</a>
       </div>
       <p class="publication-meta">CVPR 2022</p>
-      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a>, <a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Y. Luo</a>, <a href="REPLACE_WITH_AUTHOR_URL">T. Liu</a>, <a href="https://liangpan99.github.io/">L. Pan</a>, <a href="https://caizhongang.com/">Z. Cai</a>, <a href="https://scholar.google.com/citations?user=sMQV1ecAAAAJ">H. Zhao</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a></p>
+      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a><sup>*</sup>, <a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Y. Luo</a><sup>*</sup>, <a href="REPLACE_WITH_AUTHOR_URL">T. Liu</a>, <a href="https://liangpan99.github.io/">L. Pan</a>, <a href="https://caizhongang.com/">Z. Cai</a>, <a href="https://scholar.google.com/citations?user=sMQV1ecAAAAJ">H. Zhao</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a></p>
     </div>
   </article>
 
@@ -234,7 +234,7 @@ author_profile: true
         <a href="https://github.com/Jasonkks/mlcnet">code</a>
       </div>
       <p class="publication-meta">ICCV 2021</p>
-      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a>, <a href="https://caizhongang.com/">Z. Cai</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://zhanggongjie.github.io/">G. Zhang</a>, <a href="https://scholar.google.com/citations?user=sMQV1ecAAAAJ">H. Zhao</a>, <a href="https://scholar.google.com/citations?user=afbbNmwAAAAJ">S. Yi</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a>, <a href="https://scholar.google.com/citations?user=BN2Ze-QAAAAJ">H. Li</a>, <a href="https://scholar.google.com/citations?user=voqw10cAAAAJ">S. Zhang</a>, <a href="https://liuziwei7.github.io/">Z. Liu</a></p>
+      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=mw-qVgcAAAAJ&hl=en">Z. Luo</a><sup>*</sup>, <a href="https://caizhongang.com/">Z. Cai</a><sup>*</sup>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://zhanggongjie.github.io/">G. Zhang</a>, <a href="https://scholar.google.com/citations?user=sMQV1ecAAAAJ">H. Zhao</a>, <a href="https://scholar.google.com/citations?user=afbbNmwAAAAJ">S. Yi</a>, <a href="https://personal.ntu.edu.sg/shijian.lu/index.htm">S. Lu</a>, <a href="https://scholar.google.com/citations?user=BN2Ze-QAAAAJ">H. Li</a>, <a href="https://scholar.google.com/citations?user=voqw10cAAAAJ">S. Zhang</a>, <a href="https://liuziwei7.github.io/">Z. Liu</a></p>
     </div>
   </article>
 
@@ -246,19 +246,7 @@ author_profile: true
         <a href="https://github.com/tsingqguo/exposure-fusion-shadow-removal">code</a>
       </div>
       <p class="publication-meta">CVPR 2021</p>
-      <p class="publication-authors"><a href="REPLACE_WITH_AUTHOR_URL">L. Fu</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://tsingqguo.github.io/">Q. Guo</a>, <a href="https://xujuefei.com/">F. Juefei-Xu</a>, <a href="https://cis.csuohio.edu/~h.yu">H. Yu</a>, <a href="https://scholar.google.com/citations?user=7ory1i8AAAAJ">W. Feng</a>, <a href="https://personal.ntu.edu.sg/yangliu/">Y. Liu</a>, <a href="https://scholar.google.com/citations?user=eycXl_QAAAAJ">S. Wang</a></p>
-    </div>
-  </article>
-
-  <!-- Sparta -->
-  <article class="publication-card no-image">
-    <div>
-      <h2 class="publication-title">Sparta: Spatially attentive and adversarially robust activation</h2>
-      <div class="publication-links">
-        <a href="https://arxiv.org/abs/2105.08269">paper</a>
-      </div>
-      <p class="publication-meta">arXiv 2021</p>
-      <p class="publication-authors"><a href="https://tsingqguo.github.io/">Q. Guo</a>, <a href="https://xujuefei.com/">F. Juefei-Xu</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://scholar.google.com/citations?user=7ory1i8AAAAJ">W. Feng</a>, <a href="https://personal.ntu.edu.sg/yangliu/">Y. Liu</a>, <a href="https://scholar.google.com/citations?user=eycXl_QAAAAJ">S. Wang</a></p>
+      <p class="publication-authors"><a href="REPLACE_WITH_AUTHOR_URL">L. Fu</a><sup>*</sup>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://tsingqguo.github.io/">Q. Guo</a>, <a href="https://xujuefei.com/">F. Juefei-Xu</a>, <a href="https://cis.csuohio.edu/~h.yu">H. Yu</a>, <a href="https://scholar.google.com/citations?user=7ory1i8AAAAJ">W. Feng</a>, <a href="https://personal.ntu.edu.sg/yangliu/">Y. Liu</a>, <a href="https://scholar.google.com/citations?user=eycXl_QAAAAJ">S. Wang</a></p>
     </div>
   </article>
 
