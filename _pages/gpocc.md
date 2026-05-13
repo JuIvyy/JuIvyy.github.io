@@ -3,6 +3,7 @@ layout: single
 title: "GPOcc: Generalizing Visual Geometry Priors to Sparse Gaussian Occupancy Prediction"
 permalink: /gpocc/
 author_profile: false
+classes: wide
 ---
 
 <p style="text-align: center; color: #d32f2f; font-weight: 700;">
@@ -42,19 +43,109 @@ To support streaming monocular input, GPOcc further introduces a training-free i
 ![GPOcc Vis1](/assets/gpocc/qua_mono.png)
 ![GPOcc Vis2](/assets/gpocc/qua_emb.png)
 
-## Videos
+## Videos {#videos}
 
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 16px; margin-top: 1rem;">
-  <video controls playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
-    <source src="/assets/gpocc/demo1.mp4" type="video/mp4">
-  </video>
-  <video controls playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
-    <source src="/assets/gpocc/demo2.mp4" type="video/mp4">
-  </video>
-  <video controls playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
-    <source src="/assets/gpocc/demo3.mp4" type="video/mp4">
-  </video>
-  <video controls playsinline preload="metadata" style="width: 100%; border-radius: 10px;">
-    <source src="/assets/gpocc/demo4.mp4" type="video/mp4">
-  </video>
+<style>
+.gpocc-video-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(280px, 1fr));
+  gap: 18px;
+  margin-top: 1.2rem;
+}
+
+.gpocc-video-card {
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  padding: 10px;
+  background: #ffffff;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.gpocc-video-card video {
+  width: 100%;
+  display: block;
+  border-radius: 10px;
+  background: #000;
+}
+
+.gpocc-video-caption {
+  margin-top: 8px;
+  text-align: center;
+  font-size: 0.92rem;
+  color: #333;
+  font-weight: 600;
+}
+
+@media (max-width: 720px) {
+  .gpocc-video-grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+<div class="gpocc-video-grid">
+
+  <div class="gpocc-video-card">
+    <video controls muted playsinline preload="metadata" poster="{{ '/assets/gpocc/demo1.jpg' | relative_url }}">
+      <source src="{{ '/assets/gpocc/out-demo1.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="gpocc-video-caption">Demo 1</div>
+  </div>
+
+  <div class="gpocc-video-card">
+    <video controls muted playsinline preload="metadata" poster="{{ '/assets/gpocc/demo2.jpg' | relative_url }}">
+      <source src="{{ '/assets/gpocc/out-demo2.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="gpocc-video-caption">Demo 2</div>
+  </div>
+
+  <div class="gpocc-video-card">
+    <video controls muted playsinline preload="metadata" poster="{{ '/assets/gpocc/demo3.jpg' | relative_url }}">
+      <source src="{{ '/assets/gpocc/out-demo3.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="gpocc-video-caption">Demo 3</div>
+  </div>
+
+  <div class="gpocc-video-card">
+    <video controls muted playsinline preload="metadata" poster="{{ '/assets/gpocc/demo4.jpg' | relative_url }}">
+      <source src="{{ '/assets/gpocc/out-demo4.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="gpocc-video-caption">Demo 4</div>
+  </div>
+
+  <div class="gpocc-video-card">
+    <video controls muted playsinline preload="metadata" poster="{{ '/assets/gpocc/demo5.jpg' | relative_url }}">
+      <source src="{{ '/assets/gpocc/out-demo5.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="gpocc-video-caption">Demo 5</div>
+  </div>
+
+  <div class="gpocc-video-card">
+    <video controls muted playsinline preload="metadata" poster="{{ '/assets/gpocc/demo6.jpg' | relative_url }}">
+      <source src="{{ '/assets/gpocc/out-demo6.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="gpocc-video-caption">Demo 6</div>
+  </div>
+
+  <div class="gpocc-video-card">
+    <video controls muted playsinline preload="metadata" poster="{{ '/assets/gpocc/demo7.jpg' | relative_url }}">
+      <source src="{{ '/assets/gpocc/out-demo7.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="gpocc-video-caption">Demo 7</div>
+  </div>
+
+  <div class="gpocc-video-card">
+    <video controls muted playsinline preload="metadata" poster="{{ '/assets/gpocc/demo8.jpg' | relative_url }}">
+      <source src="{{ '/assets/gpocc/out-demo8.mp4' | relative_url }}" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <div class="gpocc-video-caption">Demo 8</div>
+  </div>
+
 </div>
