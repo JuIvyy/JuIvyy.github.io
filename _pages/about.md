@@ -11,8 +11,10 @@ Hi, I am Changqing Zhou (JuIvyy). I work on 3D vision, world model and agents.
 
 News
 ======
+- We released **GPOcc++**: https://arxiv.org/pdf/2607.13481
+- [**RelTopo**](https://arxiv.org/pdf/2506.13553): accepted at **KDD 2026**
 - [**FreeOcc**](https://the-masses.github.io/freeocc-web/): accepted at **RSS 2026**
-- [**LegoOcc**](/legoocc/): accepted at **CVPR 2026** as an <span style="color: #d32f2f; font-weight: 700;">Oral</span> presentation
+- [**LegoOcc**](https://juivyy.github.io/legoocc/): accepted at **CVPR 2026** as an <span style="color: #d32f2f; font-weight: 700;">Oral</span> presentation; selected as an **award candidate**
 - [**GPOcc**](/gpocc/): accepted at **CVPR 2026**
 
 Selected Publications

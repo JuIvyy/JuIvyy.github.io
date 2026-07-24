@@ -106,7 +106,7 @@ author_profile: true
         <a href="https://huggingface.co/datasets/the-masses/ReplicaOcc">data</a>
       </div>
       <p class="publication-meta">RSS 2026</p>
-      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=i3Lr8_8AAAAJ">Z. Jiang</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="REPLACE_WITH_AUTHOR_URL">X. Zuo</a>, <a href="https://scholar.google.com/citations?user=OqlY-98AAAAJ">C. Chen</a></p>
+      <p class="publication-authors"><a href="https://scholar.google.com/citations?user=i3Lr8_8AAAAJ">Z. Jiang</a>, <a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a><sup>*</sup>, <a href="https://xingxingzuo.github.io/">X. Zuo</a>, <a href="https://scholar.google.com/citations?user=OqlY-98AAAAJ">C. Chen</a></p>
     </div>
   </article>
 
@@ -115,11 +115,11 @@ author_profile: true
     <div>
       <h2 class="publication-title">Monocular open vocabulary occupancy prediction for indoor scenes</h2>
       <div class="publication-links">
-        <a href="REPLACE_WITH_PROJECT_URL">project</a>
-        <a href="REPLACE_WITH_CODE_URL">code</a>
+        <a href="/legoocc/">project</a>
+        <a href="https://github.com/JuIvyy/LegoOcc">code</a>
         <a href="https://arxiv.org/abs/2602.22667">paper</a>
       </div>
-      <p class="publication-meta">CVPR 2026 <span style="color: #d32f2f; font-weight: 700;">Oral</span></p>
+      <p class="publication-meta">CVPR 2026 <span style="color: #d32f2f; font-weight: 700;">Oral, Award Candidate</span></p>
       <p class="publication-authors"><a href="https://scholar.google.com/citations?user=FZ3jPs4AAAAJ"><strong>C. Zhou</strong></a>, <a href="https://scholar.google.com.hk/citations?user=B588EyYAAAAJ">Y. Luo</a>, <a href="https://github.com/hanzhang-tech">H. Zhang</a>, <a href="https://scholar.google.com/citations?user=i3Lr8_8AAAAJ">Z. Jiang</a>, <a href="https://scholar.google.com/citations?user=OqlY-98AAAAJ">C. Chen</a></p>
     </div>
     <div class="publication-image">
@@ -132,8 +132,8 @@ author_profile: true
     <div>
       <h2 class="publication-title">Generalizing visual geometry priors to sparse Gaussian occupancy prediction</h2>
       <div class="publication-links">
-        <a href="REPLACE_WITH_PROJECT_URL">project</a>
-        <a href="REPLACE_WITH_CODE_URL">code</a>
+        <a href="/gpocc/">project</a>
+        <a href="https://github.com/JuIvyy/GPOcc">code</a>
         <a href="https://arxiv.org/abs/2602.21552">paper</a>
       </div>
       <p class="publication-meta">CVPR 2026</p>
