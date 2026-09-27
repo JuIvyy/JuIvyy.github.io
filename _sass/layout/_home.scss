@@ -16,8 +16,8 @@
   --c-accent-soft   : #e3f4f4;
   --c-accent-softer : #f3fafa;
   --c-line          : #e6e8eb;
-  --c-blue          : #1b2a44;   // section headings: near-black navy
-  --c-blue-soft     : #e8ecf2;
+  --c-heading          : #000;      // section headings (pure black)
+  --c-heading-soft     : #eef0f2;
   --c-red           : #b83a3f;   // labels: dates, venues, research areas
   --c-red-strong    : #c9444b;   // Oral / award tags
   --c-red-soft      : #fbeced;
@@ -243,7 +243,7 @@ a {
   margin: 2.6rem 0 1.2rem;
   padding: 0 0 0.6rem;
   border-bottom: 0;
-  color: var(--c-blue);
+  color: var(--c-heading);
   font-size: 1.45em;
   font-weight: 800;
   letter-spacing: -0.01em;
@@ -267,15 +267,15 @@ a {
     width: 2rem;
     height: 2rem;
     border-radius: 9px;
-    background: var(--c-blue-soft);
-    color: var(--c-blue);
+    background: var(--c-heading-soft);
+    color: var(--c-heading);
     font-size: 0.8em;
     transition: transform 0.4s var(--ease-out), background-color 0.3s ease, color 0.3s ease;
   }
 
   &:hover i {
     transform: rotate(-8deg) scale(1.08);
-    background: var(--c-blue);
+    background: var(--c-heading);
     color: #fff;
   }
 
@@ -763,7 +763,7 @@ a {
   margin: 2rem 0 0.9rem;
   padding: 0;
   border: 0;
-  color: var(--c-blue);
+  color: var(--c-heading);
   font-size: 1.15em;
   font-weight: 800;
   font-variant-numeric: tabular-nums;
@@ -777,7 +777,7 @@ a {
 }
 
 .page--pubs .page__title {
-  color: var(--c-blue);
+  color: var(--c-heading);
   font-weight: 800;
   letter-spacing: -0.01em;
 }
