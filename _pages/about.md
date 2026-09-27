@@ -13,6 +13,8 @@ redirect_from:
 
 <p class="reveal">Hi, I am <span class="accent-text">Changqing Zhou</span> (JuIvyy). I work on <strong>3D vision</strong>, <strong>world models</strong> and <strong>agents</strong>.</p>
 
+<p class="about-contact reveal"><i class="fas fa-envelope"></i> <a href="mailto:czhou149@connect.hkust-gz.edu.cn">czhou149@connect.hkust-gz.edu.cn</a></p>
+
 <h1 id="research" class="section-title"><i class="fas fa-microscope"></i> Research</h1>
 
 <div class="research-grid">
@@ -98,6 +100,7 @@ redirect_from:
       <p class="pub-card__meta"><em>Robotics: Science and Systems (RSS), 2026</em></p>
       <div class="pub-card__links">
         <a class="pub-btn" href="https://the-masses.github.io/freeocc-web/"><i class="fas fa-house"></i> Project</a>
+        <a class="pub-btn" href="https://github.com/the-masses/FreeOcc"><i class="fab fa-github"></i> Code</a>
       </div>
     </div>
   </article>
@@ -114,6 +117,7 @@ redirect_from:
       <div class="pub-card__links">
         <a class="pub-btn" href="/legoocc/"><i class="fas fa-house"></i> Project</a>
         <a class="pub-btn" href="https://arxiv.org/abs/2602.22667"><i class="fas fa-file-pdf"></i> Paper</a>
+        <a class="pub-btn" href="https://github.com/JuIvyy/LegoOcc"><i class="fab fa-github"></i> Code</a>
       </div>
     </div>
   </article>
@@ -161,6 +165,7 @@ redirect_from:
       <p class="pub-card__meta"><em>CVPR 2022</em></p>
       <div class="pub-card__links">
         <a class="pub-btn" href="https://arxiv.org/abs/2112.02857"><i class="fas fa-file-pdf"></i> Paper</a>
+        <a class="pub-btn" href="https://github.com/Jasonkks/PTTR"><i class="fab fa-github"></i> Code</a>
       </div>
     </div>
   </article>
@@ -176,6 +181,7 @@ redirect_from:
       <p class="pub-card__meta"><em>ICCV 2021</em></p>
       <div class="pub-card__links">
         <a class="pub-btn" href="https://arxiv.org/abs/2107.11355"><i class="fas fa-file-pdf"></i> Paper</a>
+        <a class="pub-btn" href="https://github.com/Jasonkks/mlcnet"><i class="fab fa-github"></i> Code</a>
       </div>
     </div>
   </article>
@@ -191,6 +197,7 @@ redirect_from:
       <p class="pub-card__meta"><em>CVPR 2021</em></p>
       <div class="pub-card__links">
         <a class="pub-btn" href="https://arxiv.org/abs/2103.01255"><i class="fas fa-file-pdf"></i> Paper</a>
+        <a class="pub-btn" href="https://github.com/tsingqguo/exposure-fusion-shadow-removal"><i class="fab fa-github"></i> Code</a>
       </div>
     </div>
   </article>

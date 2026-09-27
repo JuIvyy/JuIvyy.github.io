@@ -16,8 +16,8 @@
   --c-accent-soft   : #e3f4f4;
   --c-accent-softer : #f3fafa;
   --c-line          : #e6e8eb;
-  --c-blue          : #1d4f91;   // section headings
-  --c-blue-soft     : #eaf1fa;
+  --c-blue          : #1b2a44;   // section headings: near-black navy
+  --c-blue-soft     : #e8ecf2;
   --c-red           : #b83a3f;   // labels: dates, venues, research areas
   --c-red-strong    : #c9444b;   // Oral / award tags
   --c-red-soft      : #fbeced;
@@ -197,6 +197,29 @@ a {
   .fas {
     color: var(--c-muted);
     transition: color 0.2s ease;
+  }
+}
+
+.about-contact {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin: -0.4rem 0 0;
+  color: var(--c-muted);
+
+  i {
+    color: var(--c-muted);
+    transition: color 0.2s ease;
+  }
+
+  a {
+    color: var(--c-text);
+    text-decoration: none;
+  }
+
+  &:hover i,
+  a:hover {
+    color: var(--c-accent-deep);
   }
 }
 
