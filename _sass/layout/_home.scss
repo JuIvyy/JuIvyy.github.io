@@ -16,7 +16,11 @@
   --c-accent-soft   : #e3f4f4;
   --c-accent-softer : #f3fafa;
   --c-line          : #e6e8eb;
-  --c-warm          : #e0703a;   // Oral / award highlights
+  --c-blue          : #1d4f91;   // section headings
+  --c-blue-soft     : #eaf1fa;
+  --c-red           : #b83a3f;   // labels: dates, venues, research areas
+  --c-red-strong    : #c9444b;   // Oral / award tags
+  --c-red-soft      : #fbeced;
   --grad-accent     : linear-gradient(120deg, #0e9aa0 0%, #2bb7d6 100%);
   --shadow-card     : 0 2px 10px rgba(20, 24, 28, 0.05);
   --shadow-lift     : 0 14px 30px rgba(20, 24, 28, 0.11);
@@ -216,7 +220,7 @@ a {
   margin: 2.6rem 0 1.2rem;
   padding: 0 0 0.6rem;
   border-bottom: 0;
-  color: var(--c-ink);
+  color: var(--c-blue);
   font-size: 1.45em;
   font-weight: 800;
   letter-spacing: -0.01em;
@@ -240,15 +244,15 @@ a {
     width: 2rem;
     height: 2rem;
     border-radius: 9px;
-    background: var(--c-fill);
-    color: var(--c-ink);
+    background: var(--c-blue-soft);
+    color: var(--c-blue);
     font-size: 0.8em;
     transition: transform 0.4s var(--ease-out), background-color 0.3s ease, color 0.3s ease;
   }
 
   &:hover i {
     transform: rotate(-8deg) scale(1.08);
-    background: var(--c-accent);
+    background: var(--c-blue);
     color: #fff;
   }
 
@@ -316,7 +320,7 @@ a {
     left: 0;
     width: 100%;
     height: 3px;
-    background: var(--grad-accent);
+    background: linear-gradient(90deg, var(--c-red), #e0787d);
     transform: scaleX(0);
     transform-origin: 0 50%;
     transition: transform 0.45s var(--ease-out);
@@ -324,7 +328,7 @@ a {
 
   &:hover {
     transform: translateY(-6px);
-    border-color: rgba(14, 154, 160, 0.35);
+    border-color: rgba(184, 58, 63, 0.3);
     box-shadow: var(--shadow-lift);
 
     &::before {
@@ -332,7 +336,7 @@ a {
     }
 
     .research-card__icon {
-      background: var(--grad-accent);
+      background: var(--c-red);
       color: #fff;
       transform: rotate(-6deg);
     }
@@ -340,7 +344,7 @@ a {
 
   h3 {
     margin: 0.75rem 0 0.35rem;
-    color: var(--c-ink);
+    color: var(--c-red);
     font-size: 1.05em;
     font-weight: 800;
   }
@@ -360,8 +364,8 @@ a {
   width: 2.4rem;
   height: 2.4rem;
   border-radius: 11px;
-  background: var(--c-fill);
-  color: var(--c-ink);
+  background: var(--c-red-soft);
+  color: var(--c-red);
   font-size: 1.05em;
   transition: transform 0.4s var(--ease-out), background 0.3s ease, color 0.3s ease;
 }
@@ -421,7 +425,7 @@ a {
     }
 
     .news-date {
-      background: var(--c-accent);
+      background: var(--c-red);
       color: #fff;
     }
 
@@ -440,8 +444,8 @@ a {
   justify-self: start;
   padding: 0.18rem 0.55rem;
   border-radius: 7px;
-  background: var(--c-fill);
-  color: var(--c-text);
+  background: var(--c-red-soft);
+  color: var(--c-red);
   font-size: 0.8em;
   font-weight: 800;
   font-variant-numeric: tabular-nums;
@@ -456,7 +460,7 @@ a {
 
 .news-venue {
   font-weight: 700;
-  color: var(--c-ink);
+  color: var(--c-red);
 }
 
 .tag-oral {
@@ -464,8 +468,8 @@ a {
   margin-left: 0.2rem;
   padding: 0.05rem 0.5rem;
   border-radius: 999px;
-  background: rgba(224, 112, 58, 0.12);
-  color: #b4521f;
+  background: var(--c-red-strong);
+  color: #fff;
   font-size: 0.82em;
   font-weight: 800;
 }
@@ -672,7 +676,7 @@ a {
   font-size: 0.84em;
 
   em {
-    color: var(--c-ink);
+    color: var(--c-red);
     font-style: normal;
     font-weight: 700;
   }
@@ -736,7 +740,7 @@ a {
   margin: 2rem 0 0.9rem;
   padding: 0;
   border: 0;
-  color: var(--c-ink);
+  color: var(--c-blue);
   font-size: 1.15em;
   font-weight: 800;
   font-variant-numeric: tabular-nums;
@@ -750,7 +754,7 @@ a {
 }
 
 .page--pubs .page__title {
-  color: var(--c-ink);
+  color: var(--c-blue);
   font-weight: 800;
   letter-spacing: -0.01em;
 }
