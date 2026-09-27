@@ -19,7 +19,7 @@ redirect_from:
   <div class="research-card reveal">
     <span class="research-card__icon"><i class="fas fa-cube"></i></span>
     <h3>3D Vision</h3>
-    <p>Occupancy prediction, open-vocabulary 3D scene understanding, and point cloud tracking &amp; detection.</p>
+    <p>Occupancy prediction and 3R models for feed-forward 3D reconstruction.</p>
   </div>
   <div class="research-card reveal">
     <span class="research-card__icon"><i class="fas fa-earth-asia"></i></span>
@@ -40,7 +40,7 @@ redirect_from:
   <li class="news-item reveal"><span class="news-date">2026.07</span><span class="news-text">We released <a href="https://arxiv.org/abs/2607.13481">GPOcc++</a>.</span></li>
   <li class="news-item reveal"><span class="news-date">Accepted</span><span class="news-text"><a href="https://arxiv.org/abs/2506.13553">RelTopo</a> is accepted at <span class="news-venue">KDD 2026</span>.</span></li>
   <li class="news-item reveal"><span class="news-date">Accepted</span><span class="news-text"><a href="https://the-masses.github.io/freeocc-web/">FreeOcc</a> is accepted at <span class="news-venue">RSS 2026</span>.</span></li>
-  <li class="news-item reveal"><span class="news-date">Accepted</span><span class="news-text"><a href="https://juivyy.github.io/legoocc/">LegoOcc</a> is accepted at <span class="news-venue">CVPR 2026</span> as an <span class="tag-oral">Oral</span> presentation, and selected as an <strong>award candidate</strong>.</span></li>
+  <li class="news-item reveal"><span class="news-date">Accepted</span><span class="news-text"><a href="https://juivyy.github.io/legoocc/">LegoOcc</a> is accepted at <span class="news-venue">CVPR 2026</span> as an <span class="tag-oral">Oral</span> presentation, and selected as an <span class="tag-oral">Award Candidate</span>.</span></li>
   <li class="news-item reveal"><span class="news-date">Accepted</span><span class="news-text"><a href="/gpocc/">GPOcc</a> is accepted at <span class="news-venue">CVPR 2026</span>.</span></li>
 </ul>
 

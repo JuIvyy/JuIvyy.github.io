@@ -1,22 +1,25 @@
 /* ==========================================================================
-   HOMEPAGE STYLE — teal palette, cards and motion
+   HOMEPAGE STYLE — neutral base with a teal accent, cards and motion
    Loaded after the base theme, so these rules override it site-wide.
+   Resting state is neutral grey/black; teal appears on hover or selection.
    ========================================================================== */
 
 :root {
-  --c-ink           : #0b3a3f;   // headings, names
-  --c-text          : #34535a;   // body copy
-  --c-muted         : #6b878c;   // secondary copy
+  --c-ink           : #1f2328;   // headings, names
+  --c-text          : #3b4046;   // body copy
+  --c-muted         : #6e757c;   // secondary copy
+  --c-fill          : #f2f3f5;   // neutral chip / tile background
+  --c-border        : #d6dadf;   // neutral control border
   --c-accent        : #0e9aa0;   // teal, decoration
   --c-accent-deep   : #087178;   // teal, text-safe on white
   --c-accent-2      : #2bb7d6;   // cyan, gradient end
   --c-accent-soft   : #e3f4f4;
   --c-accent-softer : #f3fafa;
-  --c-line          : #dcebec;
+  --c-line          : #e6e8eb;
   --c-warm          : #e0703a;   // Oral / award highlights
   --grad-accent     : linear-gradient(120deg, #0e9aa0 0%, #2bb7d6 100%);
-  --shadow-card     : 0 4px 16px rgba(11, 58, 63, 0.06);
-  --shadow-lift     : 0 14px 32px rgba(11, 58, 63, 0.13);
+  --shadow-card     : 0 2px 10px rgba(20, 24, 28, 0.05);
+  --shadow-lift     : 0 14px 30px rgba(20, 24, 28, 0.11);
   --ease-out        : cubic-bezier(0.22, 1, 0.36, 1);
 
   // Base theme variables, retuned to the palette
@@ -24,12 +27,12 @@
   --global-text-color                : var(--c-text);
   --global-text-color-light          : var(--c-muted);
   --global-border-color              : var(--c-line);
-  --global-link-color                : var(--c-accent-deep);
+  --global-link-color                : var(--c-ink);
   --global-link-color-hover          : var(--c-accent);
-  --global-link-color-visited        : var(--c-accent-deep);
+  --global-link-color-visited        : var(--c-ink);
   --global-masthead-link-color       : var(--c-text);
   --global-masthead-link-color-hover : var(--c-accent-deep);
-  --global-footer-bg-color           : var(--c-accent-softer);
+  --global-footer-bg-color           : #f7f8f9;
 }
 
 html {
@@ -143,13 +146,14 @@ a {
 .author__avatar img {
   padding: 4px !important;
   border: 0 !important;
-  background: var(--grad-accent);
-  box-shadow: 0 8px 22px rgba(14, 154, 160, 0.22);
-  transition: transform 0.5s var(--ease-out), box-shadow 0.5s var(--ease-out);
+  background: var(--c-line);
+  box-shadow: 0 6px 18px rgba(20, 24, 28, 0.08);
+  transition: transform 0.5s var(--ease-out), box-shadow 0.5s var(--ease-out), background-color 0.3s ease;
 
   &:hover {
     transform: scale(1.04) rotate(-2deg);
-    box-shadow: 0 12px 30px rgba(14, 154, 160, 0.34);
+    background: var(--c-accent);
+    box-shadow: 0 12px 30px rgba(14, 154, 160, 0.3);
   }
 }
 
@@ -173,6 +177,13 @@ a {
     &:hover {
       color: var(--c-accent-deep);
       transform: translateX(4px);
+
+      i,
+      .ai,
+      .fab,
+      .fas {
+        color: var(--c-accent);
+      }
     }
   }
 
@@ -180,7 +191,8 @@ a {
   .ai,
   .fab,
   .fas {
-    color: var(--c-accent);
+    color: var(--c-muted);
+    transition: color 0.2s ease;
   }
 }
 
@@ -218,7 +230,7 @@ a {
     right: 0;
     bottom: 0;
     height: 1px;
-    background: linear-gradient(90deg, var(--c-accent) 0, var(--c-accent-2) 90px, var(--c-line) 90px);
+    background: var(--c-line);
   }
 
   i {
@@ -228,8 +240,8 @@ a {
     width: 2rem;
     height: 2rem;
     border-radius: 9px;
-    background: var(--c-accent-soft);
-    color: var(--c-accent-deep);
+    background: var(--c-fill);
+    color: var(--c-ink);
     font-size: 0.8em;
     transition: transform 0.4s var(--ease-out), background-color 0.3s ease, color 0.3s ease;
   }
@@ -246,10 +258,7 @@ a {
 }
 
 .accent-text {
-  background: var(--grad-accent);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
+  color: var(--c-ink);
   font-weight: 700;
 }
 
@@ -308,7 +317,7 @@ a {
     width: 100%;
     height: 3px;
     background: var(--grad-accent);
-    transform: scaleX(0.25);
+    transform: scaleX(0);
     transform-origin: 0 50%;
     transition: transform 0.45s var(--ease-out);
   }
@@ -351,8 +360,8 @@ a {
   width: 2.4rem;
   height: 2.4rem;
   border-radius: 11px;
-  background: var(--c-accent-soft);
-  color: var(--c-accent-deep);
+  background: var(--c-fill);
+  color: var(--c-ink);
   font-size: 1.05em;
   transition: transform 0.4s var(--ease-out), background 0.3s ease, color 0.3s ease;
 }
@@ -392,7 +401,7 @@ a {
   }
 
   a {
-    color: var(--c-accent-deep);
+    color: var(--c-ink);
     font-weight: 700;
     text-decoration: none;
     background-image: linear-gradient(var(--c-accent), var(--c-accent));
@@ -421,6 +430,7 @@ a {
     }
 
     a {
+      color: var(--c-accent-deep);
       background-size: 100% 2px;
     }
   }
@@ -430,8 +440,8 @@ a {
   justify-self: start;
   padding: 0.18rem 0.55rem;
   border-radius: 7px;
-  background: var(--c-accent-soft);
-  color: var(--c-accent-deep);
+  background: var(--c-fill);
+  color: var(--c-text);
   font-size: 0.8em;
   font-weight: 800;
   font-variant-numeric: tabular-nums;
@@ -479,7 +489,7 @@ a {
 .pub-filter__btn {
   appearance: none;
   padding: 0.42rem 0.9rem;
-  border: 1px solid var(--c-line);
+  border: 1px solid var(--c-border);
   border-radius: 999px;
   background: #fff;
   color: var(--c-text);
@@ -496,10 +506,10 @@ a {
   }
 
   &.is-active {
-    border-color: transparent;
-    background: var(--grad-accent);
+    border-color: var(--c-accent);
+    background: var(--c-accent);
     color: #fff;
-    box-shadow: 0 4px 12px rgba(14, 154, 160, 0.25);
+    box-shadow: 0 4px 12px rgba(14, 154, 160, 0.22);
   }
 }
 
@@ -554,7 +564,7 @@ a {
   align-self: start;
   aspect-ratio: 16 / 10;
   border-radius: 10px;
-  background: var(--c-accent-softer);
+  background: var(--c-fill);
 
   img {
     display: block;
@@ -565,27 +575,42 @@ a {
   }
 }
 
-// Tile for papers without a teaser image: shows the paper's short name
+// Tile for papers without a teaser image: shows the paper's short name.
+// Grey at rest; a teal layer fades in on hover (gradients themselves can't transition).
 .pub-card__image--placeholder {
   display: flex;
   align-items: center;
   justify-content: center;
-  background:
-    radial-gradient(circle at 20% 15%, rgba(255, 255, 255, 0.28), transparent 45%),
-    linear-gradient(135deg, #0b7f86 0%, #1aa7b8 55%, #54c6dd 100%);
+  background: linear-gradient(135deg, #f4f5f7 0%, #e5e8eb 100%);
+
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(135deg, #0b7f86 0%, #1aa7b8 55%, #54c6dd 100%);
+    opacity: 0;
+    transition: opacity 0.4s ease;
+  }
 
   .pub-card__acronym {
-    color: #fff;
+    position: relative;
+    color: #4a5158;
     font-size: 1.35em;
     font-weight: 800;
     letter-spacing: 0.01em;
-    text-shadow: 0 2px 10px rgba(11, 58, 63, 0.25);
-    transition: transform 0.6s var(--ease-out);
+    transition: transform 0.6s var(--ease-out), color 0.3s ease;
   }
 }
 
-.pub-card:hover .pub-card__image--placeholder .pub-card__acronym {
-  transform: scale(1.08);
+.pub-card:hover .pub-card__image--placeholder {
+  &::before {
+    opacity: 1;
+  }
+
+  .pub-card__acronym {
+    color: #fff;
+    transform: scale(1.08);
+  }
 }
 
 .pub-card__venue {
@@ -594,7 +619,8 @@ a {
   left: 0.5rem;
   padding: 0.2rem 0.55rem;
   border-radius: 6px;
-  background: rgba(11, 58, 63, 0.82);
+  z-index: 1;
+  background: rgba(31, 35, 40, 0.78);
   color: #fff;
   font-size: 0.7em;
   font-weight: 800;
@@ -646,7 +672,9 @@ a {
   font-size: 0.84em;
 
   em {
-    color: var(--c-text);
+    color: var(--c-ink);
+    font-style: normal;
+    font-weight: 700;
   }
 }
 
@@ -663,10 +691,10 @@ a {
   align-items: center;
   gap: 0.35rem;
   padding: 0.32rem 0.75rem;
-  border: 1px solid rgba(14, 154, 160, 0.35);
+  border: 1px solid var(--c-border);
   border-radius: 8px;
   background: #fff;
-  color: var(--c-accent-deep) !important;
+  color: var(--c-ink) !important;
   font-size: 0.8em;
   font-weight: 700;
   text-decoration: none;
@@ -708,7 +736,7 @@ a {
   margin: 2rem 0 0.9rem;
   padding: 0;
   border: 0;
-  color: var(--c-accent-deep);
+  color: var(--c-ink);
   font-size: 1.15em;
   font-weight: 800;
   font-variant-numeric: tabular-nums;
@@ -732,12 +760,16 @@ a {
   align-items: center;
   gap: 0.4rem;
   margin-top: 1.1rem;
-  color: var(--c-accent-deep);
+  color: var(--c-ink);
   font-weight: 700;
   text-decoration: none;
 
   i {
     transition: transform 0.3s var(--ease-out);
+  }
+
+  &:hover {
+    color: var(--c-accent-deep);
   }
 
   &:hover i {
@@ -775,16 +807,16 @@ a {
   justify-content: center;
   width: 2.6rem;
   height: 2.6rem;
-  border: 0;
+  border: 1px solid var(--c-border);
   border-radius: 50%;
-  background: var(--grad-accent);
-  color: #fff;
-  box-shadow: 0 8px 20px rgba(14, 154, 160, 0.32);
+  background: #fff;
+  color: var(--c-ink);
+  box-shadow: 0 6px 18px rgba(20, 24, 28, 0.1);
   cursor: pointer;
   opacity: 0;
   transform: translateY(12px) scale(0.9);
   pointer-events: none;
-  transition: opacity 0.3s ease, transform 0.3s var(--ease-out);
+  transition: opacity 0.3s ease, transform 0.3s var(--ease-out), background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease;
 
   &.is-shown {
     opacity: 1;
@@ -794,6 +826,9 @@ a {
 
   &:hover {
     transform: translateY(-3px);
+    border-color: var(--c-accent);
+    background: var(--c-accent);
+    color: #fff;
   }
 }
 
@@ -802,11 +837,15 @@ a {
 
 .page__footer {
   border-top: 1px solid var(--c-line);
-  background: var(--c-accent-softer);
+  background: #f7f8f9;
   color: var(--c-muted);
 
   a {
-    color: var(--c-accent-deep);
+    color: var(--c-text);
+
+    &:hover {
+      color: var(--c-accent-deep);
+    }
   }
 }
 
