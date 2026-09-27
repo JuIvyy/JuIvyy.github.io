@@ -91,6 +91,10 @@
             card.classList.add("is-entering");
           }
         });
+        // On the full list, hide year headings that have no matching papers
+        document.querySelectorAll(".pub-year-group").forEach(function (group) {
+          group.classList.toggle("is-hidden", !group.querySelector(".pub-card:not(.is-hidden)"));
+        });
       });
     });
   });

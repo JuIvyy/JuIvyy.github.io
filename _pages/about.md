@@ -24,21 +24,21 @@ redirect_from:
   <div class="research-card reveal">
     <span class="research-card__icon"><i class="fas fa-earth-asia"></i></span>
     <h3>World Model</h3>
-    <p>Modeling how 3D scenes look and evolve, as a basis for prediction and planning.</p>
+    <p>Unified world-action diffusion models that connect scene prediction with decision making.</p>
   </div>
   <div class="research-card reveal">
     <span class="research-card__icon"><i class="fas fa-robot"></i></span>
     <h3>Agents</h3>
-    <p>Embodied agents that perceive, reason and navigate in 3D environments.</p>
+    <p>Embodied agents for visual navigation in 3D environments.</p>
   </div>
 </div>
 
 <h1 id="news" class="section-title"><i class="fas fa-fire"></i> News</h1>
 
 <ul class="news-list">
-  <li class="news-item reveal"><span class="news-date">2026.08</span><span class="news-text">We released <a href="https://arxiv.org/pdf/2608.03244">UniNav</a>.</span></li>
-  <li class="news-item reveal"><span class="news-date">2026.07</span><span class="news-text">We released <a href="https://arxiv.org/pdf/2607.13481">GPOcc++</a>.</span></li>
-  <li class="news-item reveal"><span class="news-date">Accepted</span><span class="news-text"><a href="https://arxiv.org/pdf/2506.13553">RelTopo</a> is accepted at <span class="news-venue">KDD 2026</span>.</span></li>
+  <li class="news-item reveal"><span class="news-date">2026.08</span><span class="news-text">We released <a href="https://arxiv.org/abs/2608.03244">UniNav</a>.</span></li>
+  <li class="news-item reveal"><span class="news-date">2026.07</span><span class="news-text">We released <a href="https://arxiv.org/abs/2607.13481">GPOcc++</a>.</span></li>
+  <li class="news-item reveal"><span class="news-date">Accepted</span><span class="news-text"><a href="https://arxiv.org/abs/2506.13553">RelTopo</a> is accepted at <span class="news-venue">KDD 2026</span>.</span></li>
   <li class="news-item reveal"><span class="news-date">Accepted</span><span class="news-text"><a href="https://the-masses.github.io/freeocc-web/">FreeOcc</a> is accepted at <span class="news-venue">RSS 2026</span>.</span></li>
   <li class="news-item reveal"><span class="news-date">Accepted</span><span class="news-text"><a href="https://juivyy.github.io/legoocc/">LegoOcc</a> is accepted at <span class="news-venue">CVPR 2026</span> as an <span class="tag-oral">Oral</span> presentation, and selected as an <strong>award candidate</strong>.</span></li>
   <li class="news-item reveal"><span class="news-date">Accepted</span><span class="news-text"><a href="/gpocc/">GPOcc</a> is accepted at <span class="news-venue">CVPR 2026</span>.</span></li>
@@ -51,11 +51,42 @@ redirect_from:
 <div class="pub-filter" role="group" aria-label="Filter publications by topic">
   <button class="pub-filter__btn is-active" type="button" data-filter="all" aria-pressed="true">All</button>
   <button class="pub-filter__btn" type="button" data-filter="occupancy" aria-pressed="false">Occupancy</button>
+  <button class="pub-filter__btn" type="button" data-filter="world-model" aria-pressed="false">World Model</button>
   <button class="pub-filter__btn" type="button" data-filter="point-cloud" aria-pressed="false">Point Cloud</button>
   <button class="pub-filter__btn" type="button" data-filter="image" aria-pressed="false">Image</button>
 </div>
 
 <div class="pub-list">
+  <article class="pub-card reveal" data-topics="world-model">
+    <div class="pub-card__image pub-card__image--placeholder">
+      <span class="pub-card__acronym">UniNav</span>
+      <span class="pub-card__venue">arXiv 2026</span>
+    </div>
+    <div class="pub-card__body">
+      <h3 class="pub-card__title"><a href="https://arxiv.org/abs/2608.03244">UniNav: A Unified World-Action Diffusion Model for Visual Navigation</a></h3>
+      <p class="pub-card__authors"><strong>C. Zhou</strong>, Y. Luo, Z. Jiang, C. Chen</p>
+      <p class="pub-card__meta"><em>arXiv preprint, 2026</em></p>
+      <div class="pub-card__links">
+        <a class="pub-btn" href="https://arxiv.org/abs/2608.03244"><i class="fas fa-file-pdf"></i> Paper</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub-card reveal" data-topics="occupancy">
+    <div class="pub-card__image pub-card__image--placeholder">
+      <span class="pub-card__acronym">GPOcc++</span>
+      <span class="pub-card__venue">arXiv 2026</span>
+    </div>
+    <div class="pub-card__body">
+      <h3 class="pub-card__title"><a href="https://arxiv.org/abs/2607.13481">GPOcc++: Unified Sparse Gaussian Occupancy Prediction with Visual Geometry Priors</a></h3>
+      <p class="pub-card__authors"><strong>C. Zhou</strong>, Y. Luo, Y. Guo, B. Wang, J. Qin, C. Chen</p>
+      <p class="pub-card__meta"><em>arXiv preprint, 2026</em></p>
+      <div class="pub-card__links">
+        <a class="pub-btn" href="https://arxiv.org/abs/2607.13481"><i class="fas fa-file-pdf"></i> Paper</a>
+      </div>
+    </div>
+  </article>
+
   <article class="pub-card reveal" data-topics="occupancy">
     <div class="pub-card__image">
       <img src="/assets/about/freeocc.jpg" alt="FreeOcc thumbnail" loading="lazy">
